@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    color: white;
+    background-color: #9391913d;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 67px;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    /*border: solid rgb(9, 18, 55);*/
+}
+
+.left {
+    position: absolute;
+    display: inline-block;
+    top: 14px;
+    left: 134px;
+    /*border: 2px red solid; */
+
+}
+
+.left img {
+    width: 49px;
+
+}
+
+
+
+.mid {
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    /* border: 2px rgb(57, 126, 129) solid; */
+
+}
+
+.right {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    display: inline-block;
+    /* border: 2px rgb(43, 0, 255) solid; */
+
+}
+
+.right a {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.right a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.nav {
+    display: inline-block;
+
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 21px;
+
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    padding-top: 35px;
+    padding-left: 54px;
+}
+
+.nav li a:hover {
+    color: gray;
+    text-decoration: underline;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.header_contant {
+    display: flex;
+    height: 41.5rem;
+    margin-top: 66px;
+    padding-bottom: 4rem;
+    background-image: url(abs1.jpg);
+    /*border: solid red;*/
+    background-position-x: 554px;
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-color: black;
+
+}
+
+.contant {
+    /*text-align: center;
+    border: 2px green solid;*/
+    margin: 100px 135px;
+    padding: 33px;
+    width: 36%;
+    border-radius: 12px;
+    color: white;
+}
+
+.contant h4 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e43838;
+}
+
+.contant h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 5rem;
+    letter-spacing: 3px;
+    margin-top: 2rem;
+}
+
+.contant p {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 2rem;
+    color: #d1d5db;
+}
+
+.btn {
+    text-align: center;
+    outline: none;
+    display: block;
+    margin: 20px auto;
+    padding: 3px;
+    width: 128px;
+    height: 46px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #f9ac54;
+    color: white;
+}
+
+.btn:hover {
+    border: solid rgb(248, 17, 17);
+    background-color: #d99d57;
+}
+
+.program {
+    height: 27.5rem;
+    padding-top: 10rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 7rem;
+    color: black;
+    /*border: solid red;*/
+}
+
+.program h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.program .contain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    /*border: solid rgb(21, 18, 111);*/
+
+}
+
+.program .container {
+    width: 16rem;
+    height: 15rem;
+    background-color: #0000002b;
+    /*border: solid green;*/
+}
+
+.program .container:hover {
+    border: solid rgb(162, 162, 16);
+}
+
+.program .container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.program .container h4 {
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 23px;
+    text-align: justify;
+}
+
+.program .container .btn1 {
+    font-size: 0.95rem;
+    text-align: center;
+    margin-top: 17px;
+    border: none;
+    margin-left: 6rem;
+    margin-right: 4rem;
+    background: none;
+    cursor: pointer;
+}
+
+.program .container .btn1:hover {
+    text-decoration: underline;
+    color: tomato;
+
+}
+
+.about {
+    color: black;
+    padding: 7rem;
+    padding-top: 9rem;
+    /*border: solid red;*/
+}
+
+.about .contain {
+    display: flex;
+    justify-content: space-between;
+    /*border: solid blue;*/
+}
+
+.about .container {
+    width: 39rem;
+    /*border: solid red;*/
+}
+
+.about .container h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.about .container h4 {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.about .container .btn2 {
+    background: none;
+    border: solid #1d33cb;
+    border-radius: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 7rem;
+    height: 2rem;
+    text-align: center;
+    outline: none;
+    display: block;
+    padding: 6px;
+    font-size: 0.95rem;
+}
+
+.about .container .btn2:hover {
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #f9ac54;
+}
+
+.plan {
+    color: black;
+    padding: 7rem;
+    /*border: solid red;*/
+}
+
+.plan h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.plan h1 {
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.plan .contain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    /*border: solid blue;*/
+}
+
+.plan .contain .container {
+    width: 15rem;
+    height: 22rem;
+    padding: 1rem;
+    border: solid green;
+    border-radius: 10px;
+}
+
+.plan .contain .container h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #cb720c;
+}
+
+.plan .contain .container h3 {
+    font-size: 1.7rem;
+    margin-top: 29px;
+    margin-left: 19px;
+}
+
+.plan .container .heading {
+    /*border: solid red;*/
+    margin-top: 2rem;
+}
+
+.plan .contain .container .heading_price {
+    margin-top: 12px;
+    margin-left: 19px;
+}
+
+.plan .btn3 {
+    width: 15rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 54px;
+    text-align: center;
+    cursor: pointer;
+    border: solid red;
+    border-radius: 30px;
+    padding: 6px;
+}
+
+.plan .btn3:hover {
+    background-color: #f9ac54;
+}
+
+.contact {
+    color: white;
+    height: 8rem;
+    background-color: #343434;
+    padding: 4rem;
+    /*border: solid red;*/
+}
+
+.contact .footer-contant {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    /*border: solid blue;*/
+}
+
+.contact .container {
+    width: 16rem;
+    /*border: solid red;*/
+}
+
+.contact .container h3 {
+    text-align: center;
+}
+
+.contact .container p {
+    margin-top: 7px;
+    width: 9rem;
+}
+
+.contact .container .h:hover {
+    color: #e43838;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contact .container .social_icon {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 8px;
+    margin-left: 3px;
+    position: absolute;
+    text-align: center;
+}
+
+.contact .container .social_icon li {
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+}
+
+.contact .container .social_icon i {
+    width: 50px;
+    font-size: 25px;
+    color: white;
+    border: solid #c8a52c;
+    border-radius: 50px;
+    border-style: dotted;
+}
+
+.contact .container .social_icon i:hover {
+    background-color: #c8a52c;
+}
+
+.bottom {
+    margin-top: 58px;
+    text-align: center;
+    font-size: 19px;
+}
